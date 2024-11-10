@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Projects</title>
+    <!-- Link to the external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Main heading -->
+    <h1>Student Projects</h1>
+
+    <!-- Course Selection Dropdown -->
+    <div class="course-selection">
+        <label for="courseDropdown">Select a Course:</label>
+        <select id="courseDropdown">
+            <option value="" disabled selected>Select a course</option>
+            <option value="btech">B.Tech</option>
+            <option value="bca">BCA</option>
+            <option value="bba">BBA</option>
+            <!-- Add more courses as needed -->
+        </select>
+    </div>
+
+    <!-- Course Sections (Hidden by default) -->
+
+    <!-- B.Tech Course Section -->
+    <div class="course-section" data-course="btech" style="display: none;">
+        <!-- Course title -->
+        <h2>Bachelor of Technology (B.Tech)</h2>
+        <!-- Project table -->
+        <table>
+            <thead>
+                <tr>
+                    <!-- Table headers -->
+                    <th>Student ID</th>
+                    <th>University ID</th>
+                    <th>Name</th>
+                    <th>Project Link</th>
+                    <th>Working Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student entries for B.Tech -->
+                <tr>
+                    <td>001</td>
+                    <td>UNI001</td>
+                    <td>John Doe</td>
+                    <td><a href="https://github.com/johndoe/project1" target="_blank">Project 1</a></td>
+                    <td><a href="https://johndoe.github.io/project1/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>002</td>
+                    <td>UNI002</td>
+                    <td>Emily Smith</td>
+                    <td><a href="https://github.com/emilysmith/project2" target="_blank">Project 2</a></td>
+                    <td><a href="https://emilysmith.github.io/project2/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>003</td>
+                    <td>UNI003</td>
+                    <td>Michael Brown</td>
+                    <td><a href="https://github.com/michaelbrown/project3" target="_blank">Project 3</a></td>
+                    <td><a href="https://michaelbrown.github.io/project3/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>004</td>
+                    <td>UNI004</td>
+                    <td>Sarah Johnson</td>
+                    <td><a href="https://github.com/sarahjohnson/project4" target="_blank">Project 4</a></td>
+                    <td><a href="https://sarahjohnson.github.io/project4/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>005</td>
+                    <td>UNI005</td>
+                    <td>David Lee</td>
+                    <td><a href="https://github.com/davidlee/project5" target="_blank">Project 5</a></td>
+                    <td><a href="https://davidlee.github.io/project5/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>006</td>
+                    <td>UNI006</td>
+                    <td>Linda Martinez</td>
+                    <td><a href="https://github.com/lindamartinez/project6" target="_blank">Project 6</a></td>
+                    <td><a href="https://lindamartinez.github.io/project6/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>007</td>
+                    <td>UNI007</td>
+                    <td>James Wilson</td>
+                    <td><a href="https://github.com/jameswilson/project7" target="_blank">Project 7</a></td>
+                    <td><a href="https://jameswilson.github.io/project7/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>008</td>
+                    <td>UNI008</td>
+                    <td>Barbara Taylor</td>
+                    <td><a href="https://github.com/barbarataylor/project8" target="_blank">Project 8</a></td>
+                    <td><a href="https://barbarataylor.github.io/project8/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>009</td>
+                    <td>UNI009</td>
+                    <td>Robert Anderson</td>
+                    <td><a href="https://github.com/robertanderson/project9" target="_blank">Project 9</a></td>
+                    <td><a href="https://robertanderson.github.io/project9/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>010</td>
+                    <td>UNI010</td>
+                    <td>Mary Thomas</td>
+                    <td><a href="https://github.com/marythomas/project10" target="_blank">Project 10</a></td>
+                    <td><a href="https://marythomas.github.io/project10/" target="_blank">Live Demo</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- BCA Course Section -->
+    <div class="course-section" data-course="bca" style="display: none;">
+        <h2>Bachelor of Computer Applications (BCA)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>University ID</th>
+                    <th>Name</th>
+                    <th>Project Link</th>
+                    <th>Working Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student entries for BCA -->
+                <tr>
+                    <td>011</td>
+                    <td>UNI011</td>
+                    <td>Patricia Harris</td>
+                    <td><a href="https://github.com/patriciaharris/project1" target="_blank">Project 1</a></td>
+                    <td><a href="https://patriciaharris.github.io/project1/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>012</td>
+                    <td>UNI012</td>
+                    <td>Christopher Clark</td>
+                    <td><a href="https://github.com/christopherclark/project2" target="_blank">Project 2</a></td>
+                    <td><a href="https://christopherclark.github.io/project2/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>013</td>
+                    <td>UNI013</td>
+                    <td>Jennifer Lewis</td>
+                    <td><a href="https://github.com/jenniferlewis/project3" target="_blank">Project 3</a></td>
+                    <td><a href="https://jenniferlewis.github.io/project3/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>014</td>
+                    <td>UNI014</td>
+                    <td>Daniel Walker</td>
+                    <td><a href="https://github.com/danielwalker/project4" target="_blank">Project 4</a></td>
+                    <td><a href="https://danielwalker.github.io/project4/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>015</td>
+                    <td>UNI015</td>
+                    <td>Elizabeth Hall</td>
+                    <td><a href="https://github.com/elizabethhall/project5" target="_blank">Project 5</a></td>
+                    <td><a href="https://elizabethhall.github.io/project5/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>016</td>
+                    <td>UNI016</td>
+                    <td>Matthew Allen</td>
+                    <td><a href="https://github.com/matthewallen/project6" target="_blank">Project 6</a></td>
+                    <td><a href="https://matthewallen.github.io/project6/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>017</td>
+                    <td>UNI017</td>
+                    <td>Linda Young</td>
+                    <td><a href="https://github.com/lindayoung/project7" target="_blank">Project 7</a></td>
+                    <td><a href="https://lindayoung.github.io/project7/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>018</td>
+                    <td>UNI018</td>
+                    <td>Anthony King</td>
+                    <td><a href="https://github.com/anthonyking/project8" target="_blank">Project 8</a></td>
+                    <td><a href="https://anthonyking.github.io/project8/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>019</td>
+                    <td>UNI019</td>
+                    <td>Barbara Wright</td>
+                    <td><a href="https://github.com/barbarawright/project9" target="_blank">Project 9</a></td>
+                    <td><a href="https://barbarawright.github.io/project9/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>020</td>
+                    <td>UNI020</td>
+                    <td>Steven Lopez</td>
+                    <td><a href="https://github.com/stevenlopez/project10" target="_blank">Project 10</a></td>
+                    <td><a href="https://stevenlopez.github.io/project10/" target="_blank">Live Demo</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- BBA Course Section -->
+    <div class="course-section" data-course="bba" style="display: none;">
+        <h2>Bachelor of Business Administration (BBA)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Student ID</th>
+                    <th>University ID</th>
+                    <th>Name</th>
+                    <th>Project Link</th>
+                    <th>Working Code</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Student entries for BBA -->
+                <tr>
+                    <td>021</td>
+                    <td>UNI021</td>
+                    <td>Mary Hill</td>
+                    <td><a href="https://github.com/maryhill/project1" target="_blank">Project 1</a></td>
+                    <td><a href="https://maryhill.github.io/project1/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>022</td>
+                    <td>UNI022</td>
+                    <td>Joseph Scott</td>
+                    <td><a href="https://github.com/josephscott/project2" target="_blank">Project 2</a></td>
+                    <td><a href="https://josephscott.github.io/project2/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>023</td>
+                    <td>UNI023</td>
+                    <td>Patricia Green</td>
+                    <td><a href="https://github.com/patriciagreen/project3" target="_blank">Project 3</a></td>
+                    <td><a href="https://patriciagreen.github.io/project3/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>024</td>
+                    <td>UNI024</td>
+                    <td>Thomas Adams</td>
+                    <td><a href="https://github.com/thomasadams/project4" target="_blank">Project 4</a></td>
+                    <td><a href="https://thomasadams.github.io/project4/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>025</td>
+                    <td>UNI025</td>
+                    <td>Jennifer Baker</td>
+                    <td><a href="https://github.com/jenniferbaker/project5" target="_blank">Project 5</a></td>
+                    <td><a href="https://jenniferbaker.github.io/project5/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>026</td>
+                    <td>UNI026</td>
+                    <td>Charles Gonzalez</td>
+                    <td><a href="https://github.com/charlesgonzalez/project6" target="_blank">Project 6</a></td>
+                    <td><a href="https://charlesgonzalez.github.io/project6/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>027</td>
+                    <td>UNI027</td>
+                    <td>Sarah Nelson</td>
+                    <td><a href="https://github.com/sarahnelson/project7" target="_blank">Project 7</a></td>
+                    <td><a href="https://sarahnelson.github.io/project7/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>028</td>
+                    <td>UNI028</td>
+                    <td>Paul Roberts</td>
+                    <td><a href="https://github.com/paulroberts/project8" target="_blank">Project 8</a></td>
+                    <td><a href="https://paulroberts.github.io/project8/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>029</td>
+                    <td>UNI029</td>
+                    <td>Jessica Turner</td>
+                    <td><a href="https://github.com/jessicaturner/project9" target="_blank">Project 9</a></td>
+                    <td><a href="https://jessicaturner.github.io/project9/" target="_blank">Live Demo</a></td>
+                </tr>
+                <tr>
+                    <td>030</td>
+                    <td>UNI030</td>
+                    <td>Mark Phillips</td>
+                    <td><a href="https://github.com/markphillips/project10" target="_blank">Project 10</a></td>
+                    <td><a href="https://markphillips.github.io/project10/" target="_blank">Live Demo</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Include the JavaScript code directly in the HTML for simplicity -->
+    <script>
+        // Wait until the DOM is fully loaded
+        document.addEventListener('DOMContentLoaded', function() {
+            var courseDropdown = document.getElementById('courseDropdown');
+            var courseSections = document.querySelectorAll('.course-section');
+
+            courseDropdown.addEventListener('change', function() {
+                var selectedCourse = this.value;
+
+                // Hide all course sections
+                courseSections.forEach(function(section) {
+                    section.style.display = 'none';
+                });
+
+                // Show the selected course section
+                var selectedSection = document.querySelector('.course-section[data-course="' + selectedCourse + '"]');
+                if (selectedSection) {
+                    selectedSection.style.display = 'block';
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
